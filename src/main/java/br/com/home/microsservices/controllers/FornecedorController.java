@@ -12,7 +12,7 @@ import br.com.home.microsservices.entities.EnderecoFornecedor;
 @RequestMapping("/info")
 public class FornecedorController {
 
-
+//Alteração1
 	@GetMapping("/{estado}")
 	public ResponseEntity<EnderecoFornecedor> find(@PathVariable String estado){
 		
